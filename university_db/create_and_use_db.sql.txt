@@ -1,12 +1,3 @@
 CREATE DATABASE `UniversityDB`;
 
-CREATE TABLE idk (
-id INT PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR(100),
-email VARCHAR(100)
-);
-
-INSERT INTO idk (name, email)
-VALUE ('danny', 'brendan42@gmail.com'), ('jammy', jam@gmail.com');
-
-SELECT * FROM idk;
+SELECT 'UniversityDB'();
